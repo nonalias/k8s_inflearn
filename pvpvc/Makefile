@@ -5,6 +5,7 @@ all:
 	-kubectl apply -f pvc.yaml
 	-kubectl apply -f pvc2.yaml
 	-kubectl apply -f pvc3.yaml
+	-kubectl apply -f pvc4.yaml
 	-kubectl apply -f pod.yaml
 
 clean:
@@ -12,6 +13,7 @@ clean:
 	-kubectl delete -f pvc.yaml
 	-kubectl delete -f pvc2.yaml
 	-kubectl delete -f pvc3.yaml
+	-kubectl delete -f pvc4.yaml
 	-kubectl delete -f pv.yaml
 	-kubectl delete -f pv2.yaml
 	-kubectl delete -f pv3.yaml
